@@ -11,7 +11,7 @@ echo '{
             "settings": {
                 "clients": [
                     {
-                        "'` [ $type = trojan ] && echo "password" || echo "id" `'": "'`[ $id ] && echo "$id" || echo "1eb6e917-774b-4a84-aff6-b058577c60a5" `'"
+                        "'` [[ $type = trojan || ! $type ]] && echo "password" || echo "id" `'": "'`[ $id ] && echo "$id" || echo "1eb6e917-774b-4a84-aff6-b058577c60a5" `'"
                     }
                 ],
                 "decryption": "none"
