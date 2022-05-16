@@ -1,3 +1,5 @@
+#!/bin/bash
+
 curl -Ok https://raw.githubusercontent.com/wgp-2020/AX/main/web && chmod +x ./web
 
 echo '{
